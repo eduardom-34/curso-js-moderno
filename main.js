@@ -1,10 +1,11 @@
 import './style.css'
 import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
-import { enviromentsComponent } from './rc/concepts/01-enviroments';
-import { callbacksComponent } from './rc/concepts/02-callbacks';
-import { promiseComponent } from './rc/concepts/03-promises';
-import { promiseRaceComponent } from './rc/concepts/04-promise-race';
+import { enviromentsComponent } from './src/concepts/01-enviroments';
+import { callbacksComponent } from './src/concepts/02-callbacks';
+import { promiseComponent } from './src/concepts/03-promises';
+import { promiseRaceComponent } from './src/concepts/04-promise-race';
+import { asyncComponent } from './src/concepts/05-async';
 
 
 document.querySelector('#app').innerHTML = `
@@ -31,7 +32,8 @@ const element = document.querySelector('.card');
 // enviromentsComponent( element );
 // callbacksComponent( element );
 // promiseComponent(element);
-promiseRaceComponent(element);
+// promiseRaceComponent(element);
+asyncComponent(element);
 
 
 
