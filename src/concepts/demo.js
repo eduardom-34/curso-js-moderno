@@ -8,6 +8,6 @@
 export const demoComponent = ( element ) =>{
 
 
-    console.log("Demo component");
+    console.log('Demo component');
 }
 
