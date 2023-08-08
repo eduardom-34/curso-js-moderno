@@ -37,9 +37,16 @@ export const Breakingbadapp = async( element ) => {
 
     }
 
+    //Añadir listening
+    nextQuoteButton.addEventListener('click', async() => {
+        element.innerHTML = 'Loading...';
+        const quote = await fetchQuote();
+        renderquote( quote );
+
+    })
+
 
     fetchQuote()
         .then( renderquote );
-
 
 }
