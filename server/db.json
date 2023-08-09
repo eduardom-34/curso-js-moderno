@@ -2,11 +2,11 @@
   "users": [
     {
       "id": 1,
-      "isActive": false,
-      "balance": 1397.32,
+      "isActive": true,
+      "balance": 1323,
       "avatar": "http://placehold.it/32x32",
-      "first_name": "Ryan",
-      "last_name": "Kent",
+      "first_name": "Ryan!!!",
+      "last_name": "Kent!!!",
       "gender": "male"
     },
     {
@@ -15,7 +15,7 @@
       "balance": 1120.82,
       "avatar": "http://placehold.it/32x32",
       "first_name": "Francine",
-      "last_name": "Ingram",
+      "last_name": "Herrera",
       "gender": "female"
     },
     {
