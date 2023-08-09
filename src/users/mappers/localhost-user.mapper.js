@@ -1,4 +1,4 @@
-import { Users } from "../models/users"
+import { User } from "../models/user"
 
 /**
  * 
@@ -17,7 +17,7 @@ export const localHostUsertoModel = ( localhostUser ) => {
         last_name,
     } = localhostUser;
     
-    return new Users({
+    return new User({
         avatar,
         balance,
         firstName: first_name,
